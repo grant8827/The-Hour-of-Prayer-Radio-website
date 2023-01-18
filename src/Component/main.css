@@ -1,0 +1,81 @@
+.site-id{
+   align-items: center;
+   padding: 20px;
+   justify-content: center;
+   text-align: center;
+}
+
+
+.navbar{
+   width: 100%;
+   height: 60px;
+   background-color: rgb(37, 37, 37);
+}
+
+.navlinks{
+   display: flex;
+   padding: 10px 0 10px 0;
+   margin: 0 0 0 50px;
+}
+.navlinks li{
+   margin-left: 20px;
+   list-style: none;
+   font-size: 20px;
+   color: aliceblue;
+   
+}
+.navlinks li a{
+   text-decoration: none;
+   color: aliceblue;
+   font-weight:700 ;
+}
+.navlinks li a:hover{
+   color: #ff1;
+}
+/*home page*/
+.home-page{
+   padding: 20px;
+}
+
+.tag-head{
+   text-align: center;
+margin-bottom: 50px;
+}
+.tag-info{
+   display: flex;
+   gap: 20px;
+   margin-bottom: 20px;
+}
+.tag-info h2{
+   text-align: center;
+}
+.tags-1{
+   width: 300px;
+   height: auto;
+   background-color: #ff1;
+}
+.tags-2{
+   width: 300px;
+   height: auto;
+   background-color: #ff1;
+}
+.tags-3{
+   width: 300px;
+   height: auto;
+   background-color: #ff1;
+}
+
+.bonner{
+   background-image: url(./Assets/Images/bonner-img.png);
+   background-size: cover;
+   background-attachment: fixed;
+}
+.bonner-info{
+   text-align: center;
+   padding: 10px;
+}
+.bonner-info h4{
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(164, 164, 165);
+}
